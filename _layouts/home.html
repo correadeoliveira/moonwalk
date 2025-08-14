@@ -18,7 +18,43 @@ layout: default
 
 {% if site.theme_config.show_projects == true %}
   <h2>{{ site.theme_config.home.title_projects }}</h2>
-  {% include card_list.html collection=site.data.home.project_entries %}
+  <style>
+    .project-list-full {
+      list-style: none;
+      padding: 0;
+    }
+    .project-list-full .card {
+      width: auto; /* Remove a largura fixa do cartão */
+      text-align: left; /* Alinha o texto à esquerda para melhor leitura */
+      margin-bottom: 1.5em; /* Adiciona espaço entre os cartões */
+    }
+    .project-list-full .card a {
+      text-decoration: none;
+      display: block;
+    }
+    .project-list-full .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.3em;
+    }
+    .project-list-full .card .header {
+      font-size: 1.5em; /* Ajuste o valor para o tamanho desejado */
+      font-weight: bold;
+    }
+  </style>
+  <ul class="project-list-full">
+    {% for project in site.data.home.project_entries %}
+      <li class="card">
+        <a href="{{ project.url | relative_url }}">
+          <div class="header">{{ project.title }}</div>
+          <hr/>
+          {% if project.image %}
+            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+          {% endif %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 {% endif %}
 
 {% if site.theme_config.show_misc_list == true %}
