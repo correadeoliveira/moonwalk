@@ -1,86 +1,86 @@
 navbar_entries:
-  - title: about
+  - title: sobre
     url: about
 
   - title: blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: linkedin
+    url: https://www.linkedin.com/in/thiago-correa-dados
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: Trabalho Santificado
+    url: trabalho-santificado
+    image: /assets/images/infancia-de-jesus.png
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+#  - title: Projeto 2
+#    url: overview-post
+#    desc: Projetos são exibidos em formato de cartão
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+#  - title: Projeto 3
+#    url: overview-post
+#    desc: Você pode controlar a visibilidade no arquivo _config.yml
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+#  - title: Projeto 4
+#    url: overview-post
+#    desc: Este projeto usa marcação de destaque, configurada em _data/home.yml
+#    highlight: Em Andamento
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+#  - title: Projeto 5
+#    url: overview-post
+#    desc: Moonwalk também possui uma lista horizontal (usada no cabeçalho e rodapé)
+#    highlight: Em Andamento
 
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+#  - title: Projeto 6
+#    url: overview-post
+#    desc: Ele também possui uma lista vertical escalável (caso você precise)
 
-old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
+#old_project_entries:
+#  - title: Soopr
+#    url: https://www.soopr.co
+#    desc: Encante seus leitores - adicione belos botões de compartilhamento e curtidas facilmente aos seus sites
+#    highlight: NOVO
 
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
+#  - title: Cookie
+#    url: https://github.com/abhinavs/cookie
+#    desc: Um site de landing page de código aberto com páginas de suporte e blog integrado
 
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
+#  - title: Moonwalk
+#    url: https://github.com/abhinavs/moonwalk
+#    desc: Um tema de blog Jekyll rápido e minimalista com um modo escuro limpo
 
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+#  - title: Humangous
+#    url: https://www.humangous.co
+#    desc: Quanto melhor as pessoas te conhecem, melhor elas colaboram
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
+  - title: meu linkedin
+    url: https://www.linkedin.com/in/thiago-correa-dados
 
-  - title: twitter
-    url: https://twitter.com/abhinav
+#  - title: twitter
+#    url: https://twitter.com/workontech
 
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/correadeoliveira
 
-  - title: feed
-    url: feed.xml
+  - title: instagram
+    url: https://instagram.com/thiagoucorrea
 
 misc_entries:
-  - title: this is an example vertical list
+  - title: esta é uma lista vertical de exemplo
     url: false
 
-  - title: you can show or hide using a boolean flag in _config.yml
+  - title: você pode mostrar ou ocultar usando uma flag booleana em _config.yml
     url: false
 
-  - title: and you can add data in _data/home.yml
+  - title: e você pode adicionar dados em _data/home.yml
     url: false
 
-  - title: Blog posts
+  - title: Postagens do Blog
     post_list: true
     url: false
 
-  - title: moonwalk on the Internet
+  - title: moonwalk na Internet
     url: false
     entries:
       - title: on Github
@@ -89,13 +89,11 @@ misc_entries:
       - title: originally built for abhinav's homepage
         url: https://www.abhinav.co
 
-      - title: this list is scalable and can be nested
+      - title: esta lista é escalável e pode ser aninhada
         url: false
         entries:
-          - title: this is nested inside a nested list
+          - title: isto está aninhado dentro de uma lista aninhada
             url: false
 
-          - title: it is easy to use, see _data/home.yml to see how to configure it.
+          - title: é fácil de usar, veja _data/home.yml para ver como configurá-lo.
             url: false
-
-
