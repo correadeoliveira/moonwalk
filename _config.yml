@@ -4,13 +4,15 @@ url: https://correadeoliveira.com # root address of the site
 description: > # description of the site (multiple lines allowed)
   "Writing is the structure of thinking, here I write everything that I think."
 
-permalink: /:slug
+permalink: /:slug/
 
 favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
     username: abhinav # update or delete this
     card: summary_large_image
+
+future: true # Adicione esta linha para publicar posts com data futura
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
